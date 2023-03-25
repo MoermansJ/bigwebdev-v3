@@ -1,25 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+
+import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
+import Landing from "./pages/Landing/Landing";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	// gsap.registerPlugin(ScrollTrigger);
+
+	// useEffect(() => {
+	//   gsap.fromTo(
+	//     ".fade-in",
+	//     { x: -50, opacity: 0 },
+	//     { x: 0, opacity: 1, stagger: 0.1, duration: 0.75 }
+	//   );
+
+	//   gsap.to("#landing-image-layer2", {
+	//     y: 20,
+	//     scrollTrigger: { scrub: 1 },
+	//   });
+	// });
+
+
+	return (
+		<div className="App">
+			<div className="wrapper">
+
+
+				<div className="background"></div>
+				<div className="foreground">
+
+					<Navbar />
+					<Landing />
+					<Footer />
+				</div>
+			</div>
+		</div>
+	);
 }
 
 export default App;
