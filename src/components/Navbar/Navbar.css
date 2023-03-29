@@ -36,7 +36,7 @@
 }
 
 .navbar > ul > li:hover {
-  background-color: #0e2a47;
+  background-color: #008bff;
 }
 
 #navbar-download {
@@ -51,4 +51,5 @@
   padding: 0px 12px 0px 12px;
   cursor: pointer;
   transition: all 0.2s;
+  margin-left: 40px;
 }

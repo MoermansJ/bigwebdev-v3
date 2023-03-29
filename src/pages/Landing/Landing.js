@@ -11,24 +11,20 @@ function Landing() {
 			</svg> */}
 
 			<svg className="svg-top-wave" viewBox="0 0 1200 120">
-				<path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+				<path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" className="shape-fill"></path>
 			</svg>
 
-			<div className='test-element'>
-				Find me here - LinkedIn - Github - Download CV
+			<div className="landing-content">
+
+				<h2 className="landing-title">Find me here - {" "}
+					<a href="https://www.linkedin.com/in/jonathan-moermans/" target="_blank" rel="noreferrer">LinkedIn</a> - {" "}
+					<a href="https://github.com/MoermansJ" target="_blank" rel="noreferrer">Github</a> - {" "}
+					<a href="/files/MoermansJonathan_CV.pdf" download>Download CV</a>
+				</h2>
 				<img className="laptop-img" src="/images/laptop.svg" />
-			</div >
+			</div>
 
-
-
-
-
-
-
-
-
-
-			<svg viewBox="0 0 1440 560">
+			{/* <svg viewBox="0 0 1440 560">
 				<g mask="url('#SvgjsMask1000')" fill="none">
 					<rect width="1440" height="560" x="0" y="0" fill="#1e3266"></rect>
 					<path d="M1536 560L0 560 L0 287.67Q110.24 325.92, 72 436.16Q70.84 315, 192 313.85Q245.79 247.64, 312 301.44Q392.56 262, 432 342.55Q474.58 313.13, 504 355.71Q609.81 341.51, 624 447.32Q668.24 419.56, 696 463.79Q711.94 407.73, 768 423.67Q757.84 341.51, 840 331.35Q858.27 277.63, 912 295.9Q994.83 258.73, 1032 341.55Q1063.48 253.03, 1152 284.51Q1196.68 257.19, 1224 301.87Q1304.48 310.35, 1296 390.83Q1389.77 364.6, 1416 458.36Q1435.77 358.13, 1536 377.89z" fill="#182f5d"></path>
@@ -39,17 +35,14 @@ function Landing() {
 						<rect width="1440" height="560" fill="#ffffff"></rect>
 					</mask>
 				</defs>
-			</svg>
+			</svg> */}
 
 
-			<div className='test-element'>
+			{/* <div className='test-element'>
 				<div className="cloud">
 					<StaticCloud />
 				</div>
-			</div>
-
-			<div className='test-element'>c</div>
-
+			</div> */}
 		</div >
 	)
 }
