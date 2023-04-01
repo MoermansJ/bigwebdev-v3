@@ -1,8 +1,11 @@
 import "./App.css";
 
 import Navbar from "./components/Navbar/Navbar";
-import Footer from "./components/Footer/Footer";
 import Landing from "./pages/Landing/Landing";
+import Profile from "./pages/Profile/Profile";
+import Projects from "./pages/Projects/Projects";
+import Contact from "./pages/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 
 function App() {
 	// gsap.registerPlugin(ScrollTrigger);
@@ -24,13 +27,13 @@ function App() {
 	return (
 		<div className="App">
 			<div className="wrapper">
-
-
 				<div className="background"></div>
 				<div className="foreground">
-
 					<Navbar />
 					<Landing />
+					<Profile />
+					<Projects />
+					<Contact />
 					<Footer />
 				</div>
 			</div>

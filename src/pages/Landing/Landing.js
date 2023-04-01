@@ -1,11 +1,10 @@
 import "./Landing.css"
-import { StaticCloud } from "./Tagcloud/StaticCloud"
 
 
 function Landing() {
 
 	return (
-		<div>
+		<div className="landing">
 			{/* <svg viewBox="0 0 500 130" preserveAspectRatio="xMinYMin meet" className="svg-top-wave">
 				<path d="M0,100 C150,200 350,0 500,100 L500,00 L0,0 Z"></path>
 			</svg> */}
@@ -21,7 +20,7 @@ function Landing() {
 					<a href="https://github.com/MoermansJ" target="_blank" rel="noreferrer">Github</a> - {" "}
 					<a href="/files/MoermansJonathan_CV.pdf" download>Download CV</a>
 				</h2>
-				<img className="laptop-img" src="/images/laptop.svg" />
+				<img className="laptop-img" src="/images/laptop.svg" alt="illustration of a laptop" />
 			</div>
 
 			{/* <svg viewBox="0 0 1440 560">
@@ -38,10 +37,7 @@ function Landing() {
 			</svg> */}
 
 
-			{/* <div className='test-element'>
-				<div className="cloud">
-					<StaticCloud />
-				</div>
+			{/* 
 			</div> */}
 		</div >
 	)
